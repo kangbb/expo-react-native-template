@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "{{full-name}}",
+    "slug": "{{full-name}}",
+    "privacy": "public",
+    "entryPoint":"./target/index.js",
+    "sdkVersion": "33.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./resources/assets/icon.png",
+    "splash": {
+      "image": "./resources/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
