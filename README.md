@@ -10,6 +10,14 @@ $ npm install
 $ lein shadow watch app
 $ epxo start
 ```
+Alternatively, download the repository and use `lein` to install it to native.
+```
+$ git clone https://github.com/kangbb/expo-react-native-template.git
+$ cd expo-react-native-template
+$ lein install
+```
+You can find it in `~/.m2/repository` directory.
+
 ## Reference
 Leingen templates: [https://github.com/technomancy/leiningen/blob/master/src/leiningen/new/templates.clj](https://github.com/technomancy/leiningen/blob/master/src/leiningen/new/templates.clj)<br/>
 Reagent template: [https://github.com/reagent-project/reagent-template](https://github.com/reagent-project/reagent-template)
