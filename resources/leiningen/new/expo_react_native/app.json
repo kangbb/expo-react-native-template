@@ -3,7 +3,6 @@
     "name": "{{full-name}}",
     "slug": "{{full-name}}",
     "privacy": "public",
-    "entryPoint":"./target/index.js",
     "sdkVersion": "33.0.0",
     "platforms": [
       "ios",

@@ -18,7 +18,7 @@
     ]
     :builds
     {:app
-      {:target :react-native
+      {:target :npm-module
         :init-fn {{project-ns}}.core/init
         :output-dir "target"
         :devtools {:autoload true
