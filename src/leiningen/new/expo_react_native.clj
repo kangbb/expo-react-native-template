@@ -35,7 +35,7 @@
               ["project.clj" (render "project.clj" data)]
               ["app.json" (render "app.json" data)]
               ["package.json" (render "package.json" data)]
-              ["App.json" (render "App.js" data)]
+              ["App.js" (render "App.js" data)]
               ["babel.config.js" (render "babel.config.js" data)]]]
         args))
 
