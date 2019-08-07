@@ -10,7 +10,8 @@ $ npm install
 $ lein shadow watch app
 $ epxo start
 ```
-Alternatively, download the repository and use `lein` to install it to native.
+
+Alternatively, download the repository and use `lein` to install it to locally. The you can use it as **above**.
 ```
 $ git clone https://github.com/kangbb/expo-react-native-template.git
 $ cd expo-react-native-template
