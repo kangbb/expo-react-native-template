@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppContainer } from "./target/{{project-ns}}.core";
+import { AppContainer } from "./target/{{project-goog-module}}.core";
 
 // CRNA expects a App.js with an App export
 // without a framework that would be too much manual code to write
