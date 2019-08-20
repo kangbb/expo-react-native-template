@@ -4,7 +4,7 @@
     "slug": "{{full-name}}",
     "privacy": "public",
     "sdkVersion": "33.0.0",
-    "entryPoint": "node_modules/expo/AppEntry.js",
+    "entryPoint": "./target/index.js",
     "platforms": [
       "ios",
       "android",

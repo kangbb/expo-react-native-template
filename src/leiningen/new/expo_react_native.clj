@@ -26,6 +26,8 @@
               ["src/{{sanitized}}/content.cljs" (render "src/expo_react_native/content.cljs" data)]
               ["src/{{sanitized}}/user.cljs" (render "src/expo_react_native/user.cljs" data)]
               ["src/{{sanitized}}/components/tabbar.cljs" (render "src/expo_react_native/components/tabbar.cljs" data)]
+              ["src/{{sanitized}}/util/keep_awake.cljs" (render "src/expo_react_native/util/keep_awake.cljs" data)]
+              ["src/{{sanitized}}/util/register_app.cljs" (render "src/expo_react_native/util/register_app.cljs" data)]
               ["env/prod/{{sanitized}}/prod.cljs" (render "env/prod/expo_react_native/prod.cljs" data)]
               ["env/dev/{{sanitized}}/dev.cljs" (render "env/dev/expo_react_native/dev.cljs" data)]
               ["test/{{sanitized}}/core_test.cljs" (render "test/expo_react_native/core_test.cljs" data)]

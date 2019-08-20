@@ -4,6 +4,7 @@
             [{{project-ns}}.content :as content]
             [{{project-ns}}.user :as my]
             [{{project-ns}}.components.tabbar :as tabbar]
+            [{{project-ns}}.util.register-app :as register-app]
             ["react-navigation" :as router]))
 
 (defn styles [key]
@@ -64,4 +65,12 @@
           :style {:backgroundColor "#FFC09F"}}})))
 
 
-(def ^:export AppContainer (router/createAppContainer (tab-navigator)))
+(def AppContainer (router/createAppContainer (tab-navigator)))
+
+(defn start
+  {:dev/after-load true}
+  []
+  (register-app/render-root (r/as-element [:> AppContainer])))
+
+(defn init []
+  (start))
