@@ -31,13 +31,13 @@
               ["env/prod/{{sanitized}}/prod.cljs" (render "env/prod/expo_react_native/prod.cljs" data)]
               ["env/dev/{{sanitized}}/dev.cljs" (render "env/dev/expo_react_native/dev.cljs" data)]
               ["test/{{sanitized}}/core_test.cljs" (render "test/expo_react_native/core_test.cljs" data)]
+              ["externs/app.txt" (render "externs/app.txt")]
               ["LICENSE" (render "LICENSE" data)]
               ["README.md" (render "README.md" data)]
               [".gitignore" (render "gitignore" data)]
               ["project.clj" (render "project.clj" data)]
               ["app.json" (render "app.json" data)]
               ["package.json" (render "package.json" data)]
-              ["App.js" (render "App.js" data)]
               ["babel.config.js" (render "babel.config.js" data)]]]
         args))
 
